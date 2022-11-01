@@ -86,7 +86,7 @@ Courir & Intimider & Soulever \\
 Attirer l'attention & Faire de la musique & Se déguiser \\
 Attraper & Fouiner & Se pavaner \\
 Breakdance & Furtivité & Séduire \\
-Conduire un véhicule & Jeter & Tirer avec une arme \\
+Conduire (un véhicule) & Jeter & Tirer (avec une arme) \\
 Écouter & Pickpocket & Tours de passe-passe \\
 Équilibre & Ragots & Voir \\
 Esquiver & Se cacher &  \\
@@ -161,9 +161,7 @@ Mission accomplie avec panache et fun & Tous les BP sont récupérés + la moiti
 \begin{frame}[b]
 
 \deuxcolonnesbottom{%col1
-
-%\begin{minipage}[c][0.95\textheight][c]{\linewidth}
-
+\begin{minipage}[c][0.95\textheight][c]{\linewidth}
 \mysubsection{Objectif Personnel}
 
 \myindent Le Ghostbuster poursuit un \textbf{Objectif Personnel}. L'atteindre lui accordera de nouveaux BP. La liste est donnée ci-dessous, sachant que le Ghostmaster peut valider un objectif n'étant pas dans la liste.
@@ -216,9 +214,10 @@ Fantôme et somme des autres dés inférieure au FD & Échec et quelque chose de
 
 \myindent Le duel peut se dérouler sur tous les niveaux : mots, poings, cervelle, habileté, argent, ou quoique ce soit d'autre.
 
-%\end{minipage}
+\end{minipage}
 }
 {
+\begin{minipage}[c][0.95\textheight][c]{\linewidth}
 \myindent Le Ghostmaster décide quel Trait ou Talent est applicable pour chacun des protagonistes. Chaque duelliste lance ses dés (incluant le DF) et le plus haut score gagne. Si les protagonistes sont ex-æquo, selon les cas, le Ghostmaster laissera en l'état ou fera rejouer. Il traitera aussi le cas de tirage de Fantômes.
 
 \mysubsection{Mouvement}
@@ -240,9 +239,11 @@ Fantôme et somme des autres dés inférieure au FD & Échec et quelque chose de
 
 \myindent Durant les séquences d'action, chaque PJ peut faire un déplacement et une action.
 
-\mysubsection{Combat}
+\myindent Il y a deux types de combats : les \textbf{mêlées} et les \textbf{combats à distance}.
 
-\myindent Il y a deux types de combats : les \textbf{combats de mêlée} et les \textbf{combats à distance}. Le Talent \textit{Bagarre} est le plus adapté aux combats de mêlée, ou le Trait \textit{Muscles}. Si un adversaire ou un PJ utilise un gourdin, alors ce dernier aura un avantage plus ou moins important (voir table ci-dessous).
+\mysubsection{Mêlée}
+
+\myhl{Muscles}{Bagarre} Si un adversaire ou un PJ utilise un gourdin, alors ce dernier aura un avantage plus ou moins important (voir table ci-dessous).
 
 \begin{center}
 \begin{tabular}{c p{6.5cm}}
@@ -254,7 +255,9 @@ Fantôme et somme des autres dés inférieure au FD & Échec et quelque chose de
 \end{tabular}
 \end{center}
 
-\myindent Les combats à distance utilisent des armées ayant une certaine portée qui pilote la difficulté du jet à effectuer.
+\mysubsection{Combat à distance}
+
+\myhl{Mouvement}{Tirer} Le FD varie suivant la portée du tir.
 
 \begin{center}
 \begin{tabular}{l p{5.5cm} c}
@@ -280,14 +283,7 @@ Poison & 1 BP si le poison fait juste mal ventre, jusqu'à 10 ou 15 BP pour les 
 \end{tabular}
 \end{center}
 
-\mysubsection{Équipement}
-
-\myindent Les Ghostbusters ne peuvent porter que 3 objets sans pénalité (au maximum un nombre d'équipements égal à leurs \textit{Muscles} mais sans possibilité d'action autre que bouger et grommeler).
-
-%\begin{minipage}[c][0.95\textheight][c]{\linewidth}
-
-
-%\end{minipage}
+\end{minipage}
 }
 \end{frame}
 
@@ -297,6 +293,11 @@ Poison & 1 BP si le poison fait juste mal ventre, jusqu'à 10 ou 15 BP pour les 
 \begin{frame}[b]
 
 \deuxcolonnesbottom{%col1
+\begin{minipage}[c][0.95\textheight][c]{\linewidth}
+\mysubsection{Équipement}
+
+\myindent Les Ghostbusters ne peuvent porter que 3 objets sans pénalité (au maximum un nombre d'équipements égal à leurs \textit{Muscles} mais sans possibilité d'action autre que bouger et grommeler).
+
 
 \begin{wrapfigure}{l}{5cm}
 %\centering
@@ -328,24 +329,102 @@ Piège à fantôme (\textit{Ghost Trap})& Une petite boîte reliée à une péda
 \begin{center}
 \begin{tabular}{>{\raggedright\arraybackslash}p{1.8cm} p{6cm}}
 \textbf{Équipement} & \textbf{Caractéristiques}\\
-Caméra infrarouge & Ces caméra peuvent filmer les fantômes dans l'obscurité, même lorsque ceux-ci sont invisibles. Elle peut être pilotée à distance (FD = 10) et réglée pour prendre des photos à intervalles réguliers (FD = 10) (Trait : Cervelle ; Talent : Photographie). \\
-Parachute & Fonctionne si un DF n'est pas tiré. \\
-Appareil de Mesure d'Énergie Psychocinétique (\textit{PKE-meter}) & Outil pour détecter les fantômes en mesurant les valences psychocinétiques. Quand un fantôme est dans le coines lumières de l'outil clignottent et les bras se lèvent (en fonction de la puissance du fantôme). \\
-Enclos grillagé à fantômes (\textit{Protection Grid}) & Peut contenir un très grand nombre de fantômes. Il se peut qu'après de très nombreuses aventures, il soit plein et menace de s'effondrer, mais seul le Ghostmaster sait ce qui peut se passer. \\
+Caméra infrarouge & Ces caméra peuvent filmer les fantômes dans l'obscurité, même lorsque ceux-ci sont invisibles. Elle peut être pilotée à distance (FD = 10) et réglée pour prendre des photos à intervalles réguliers (FD = 10) \myhl{Cervelle}{Photographie}. \\
 Canon à proton (\textit{Proton Pack}) & Petits accélérateurs de particules non autorisés, les canons à protons sont l'arme de base du Ghostbuster. Le canon à proton fait énormément de dégâts (sur les murs, les boiseries, l'ameublement) et parfois il permet de maîtriser les fantômes. En mode "attaque", et à la suite d'un jet réussi, le canon à protons  permet de faire diminuer l'Ectoprésence (EP) du fantôme de 1. En mode "confinement", deux Ghostbusters au moins doivent coopérer pour emprisonner un fantôme ayant une EP de 0 dans les rayons du canon (si l'EP du fantôme n'est pas 0, il s'enfuit). Le fantôme peut alors être placé dans un piège. \newline Croiser des rayons de canons en mode attaque génère une explosion énorme (conditions : le faire volontairement ; ou chaque Ghostbuster tire sur la même cible dans le même round et le jet est un Fantôme). \\
 \end{tabular}
 \end{center}
 
+\end{minipage}
 }{%col2
+\begin{minipage}[c][0.95\textheight][c]{\linewidth}
+\begin{center}
+\begin{tabular}{>{\raggedright\arraybackslash}p{1.8cm} p{6cm}}
+\textbf{Équipement} & \textbf{Caractéristiques}\\
+Enclos grillagé à fantômes (\textit{Protection Grid}) & Peut contenir un très grand nombre de fantômes. Il se peut qu'après de très nombreuses aventures, il soit plein et menace de s'effondrer, mais seul le Ghostmaster sait ce qui peut se passer. \\
+Appareil de Mesure d'Énergie Psychokinétique (\textit{PKE-meter}) & Outil pour détecter les fantômes en mesurant les valences psychokinétiques. Quand un fantôme est dans le coin, les lumières de l'outil clignotent et les bras se lèvent (en fonction de la puissance du fantôme). \\
+Parachute & Fonctionne si un DF n'est pas tiré. \\
+Des lunettes d'Ectovision & Permettent de voir dans le noir. Éliminent la vision latérale. Font paraître un peu idiot.\\
+Équipement de plongée sous-marine & Combinaison, palmes, bouteille d'oxygène (30 min), masque, sont utiles pour les investigations dans les égouts, la mer ou autre situation de fantômes aquatiques. Jet de Muscles ou de Nager pour utiliser. \\
+Livres secrets de sciences occultes & Chaque bon occultiste a au moins un livre occulte. Quelques exemples : \textit{Guide des sociétés secrètes et des sectes} par Roylance ; \textit{Guide des revenants} par Tobin ; \textit{Le catalogue Spates des horreurs sans nom} par Spates ; \textit{Le grand livre des sciences occultes} par Fredde ; etc. Les livres peuvent contenir des indices ou même être la source d'aventures. \\
+Caméra vidéo & Peut servir à enregistrer une activité de fantômes (pour ceux qui se voient à la caméra) ou à tourner une publicité. \\
+Talkies-Walkies & Absolument nécessaire quand le groupe doit se séparer. Portée : quelques centaines de mètres. Capte aussi les conversations des camionneurs, beaucoup de grésillements et ne fonctionne plus en présence de forces psychokinétiques. \\
+\end{tabular}
+\end{center}
+
 \begin{center}
 \includegraphics[width=0.3\textwidth]{./images/pke.png} \hspace{0.5cm}  \includegraphics[width=0.4\textwidth]{./images/proton.png}\textsl{}
 \end{center}
 
+\myindent Des nouveaux équipements, plus ou moins fiables, peuvent être donnés aux Ghostbusters pour une mission spécifique par Ghostbusters Intermational (GBI) Research Labs ou la franchise locale.
+
+\myindent Vous pouvez aussi inventer un appareil. Dans ce cas, proposez trois ou quatre concepts d'appareils au Ghostmaster, décrivez le principe pseudo-scientifique sur lequel ils s'appuient, le projet de recherche et l'argent que vous êtes prêt à investir dedans. Le Ghostmaster vous dira si l'un d'entre eux fonctionne, comment et si des effets indésirables (comme des explosions) ont été à déplorer dans le cours du projet.
+
+\mysection{Notions de fantômologie}
+
+\mysubsection{Ectoprésence}
+
+\myindent Au cœur de l'aventure se trouve un fantôme, un démon, un alien, le Monstre du Loch Ness ou une autre créature. La plupart des fantômes ont une \textbf{Ectoprésence} (EP), qui quantifie leur indice de pénétration dans notre monde. Plus l'EP d'un fantôme est élevée, plus il est difficile de le soumettre.
+
 \begin{center}
 \begin{tabular}{>{\raggedright\arraybackslash}p{1.8cm} p{6cm}}
-\textbf{Équipement} & \textbf{Caractéristiques}\\
-Des lunettes d'Ecto-Vision & Permettent de voir dans le noir. Éliminent la vision latérale. Font paraître un peu idiot.\\
+\textbf{Ectoprésence} & \textbf{Solution}\\
+1 à 5 & Une multiple application du canon à proton suffit \\
+6 à 10 & Opposant sérieux \\
+Plus & Très compliqué \\
+Zuul & Probablement une EP de plus de 100 ! Nécessaire d'avoir uns stratégie pour le combattre \\
 \end{tabular}
 \end{center}
+
+\myindent Un fantôme, une fois touché par un canon à protons, cherchera à s'enfuir. Il régénère un point de EP par heure après avoir été touché.
+\end{minipage}
 }
+\end{frame}
+
+
+%=======================================
+%=======================================
+%TODO Frame 4
+\begin{frame}[b]
+
+\deuxcolonnesbottom{%col1
+\mysubsection{Utilisation du canon à protons}
+
+\myhl{Mouvement}{Tirer}
+
+Les \textbf{Dommages} (DOM) faits aux fantômes dépendent de la marge de succès du jet (perte de N EP si jet du Ghostbuster $\geq$ NxFD).
+
+\begin{center}
+\begin{tabular}{cccccccc}
+\textbf{Type} & \textbf{FD} & \textbf{DOM} & \textbf{2xFD} & \textbf{DOM} & \textbf{3xFD} & \textbf{DOM}\\
+Cible fixe & 5 & -1EP & 10 & -2EP & 15 & -3EP\\
+Cible mouvante & 10 & -1EP & 20 & -2EP & 30 & -3EP\\
+Fantôme agile & 15 & -1EP & 30 & -2EP & 45 & -3EP\\
+Longue portée & 20 & -1EP & 40 & -2EP & 60 & -3EP\\
+Les yeux fermés & 30 & -1EP & 60 & -2EP & 90 & -3EP\\
+\end{tabular}
+\end{center}
+
+\mysubsection{Autres méthodes}
+
+\myindent Les exorcismes et les rituels de bannissement fonctionnent aussi parfois sur les créatures. Plus la solution pour vaincre la créature est dramatique et amusante, plus elle doit être récompensée par le Ghostmaster.
+
+\mysubsection{Pouvoirs}
+
+\myindent Les fantômes ont tous des pouvoirs montrant leurs capacités de manipulation de l'énergie psychokinétique. Ces pouvoirs sont notés comme les Traits et sont nommés \textbf{Capacités Spéciales}.
+
+\begin{center}
+\begin{tabular}{clcl}
+\textbf{1D} & \textbf{Capacité Spéciale}\textbf{1D} & \textbf{Capacité Spéciale} \\
+
+\end{tabular}
+\end{center}
+
+
+
+
+
+}{
+
+}
+
 \end{frame}
