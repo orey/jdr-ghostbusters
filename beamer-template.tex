@@ -9,7 +9,7 @@
 \newcommand{\mysubject}{Jeu de rôles}
 \newcommand{\mykeywords}{JDR,TTRPG,RPG,orey,ghostbusters}
 \newcommand{\myreference}{OReyJdr14}
-\newcommand{\myversion}{1.0}
+\newcommand{\myversion}{1.1}
 
 \definecolor{alizarin}{rgb}{0.82, 0.1, 0.26}
 \definecolor{bostonuniversityred}{rgb}{0.8, 0.0, 0.0}
@@ -39,6 +39,9 @@
 \usepackage{comment}
 \usepackage{wrapfig}
 \usepackage{amssymb}
+
+%\usepackage{stringstrings}
+
 
 % TODO 3. Remplir le titre du PDF
 % caractéristiques
@@ -72,9 +75,10 @@
   pdfsubject={\mysubject},
   pdfkeywords ={\mykeywords},
   pdfstartview={FitH},
-  bookmarksopen={false},
+  bookmarksopen={true},
   bookmarksnumbered={true}
 }
+
 
 % POur utiliser \justifying dans les columns
 \usepackage{ragged2e}
@@ -100,6 +104,7 @@
 
 \newcommand{\mybullet}{\ding{109}}
 
+%--- mysection permet de maîtriser la compacité du document
 \newcommand{\mysection}[1]{
 \vspace{0.2cm}
 \noindent{\color{\mycolor}\large\textbf{#1}}
